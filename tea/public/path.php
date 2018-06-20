@@ -1,0 +1,10 @@
+<?php
+//var_dump($_SERVER);
+$server=$_SERVER;
+//包含当前脚本的路径。这在页面需要指向自己时非常有用。
+$file=$server['SCRIPT_NAME'];
+$fpath=substr($file,0,strrpos($file,"/"));
+$path=substr($fpath,0,strrpos($fpath,"/")+1);
+$cssurl=$path."index/css/";
+$jsurl=$path."index/js/";
+?>

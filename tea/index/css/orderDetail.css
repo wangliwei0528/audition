@@ -1,0 +1,222 @@
+.main_content{
+    margin-top: 0px;
+    margin-bottom: 80px;
+}
+/*.main_content .row{
+    padding: 0 20px;
+}*/
+.main_content .bit_row{
+    width: auto;
+    max-width: none;
+    min-width: 0;
+    margin: 0;
+}
+.main_content .bit_info{
+    font-size: 16px;
+    font-weight: normal;
+    color: #494949;
+    padding: 15px 8px;
+    border: 1px solid #bbbbbb;
+    background: #ffffff;
+    margin: 30px 0;
+    position: relative;
+}
+.main_content .bit_info>a{
+    font-size: 16px;
+    font-weight: normal;
+    color: #494949;
+}
+.main_content .checkout_left{
+    padding-right: 30px;
+    width: 58.333%;
+    float: left;
+    min-height: 1px;
+    position: relative;
+}
+.checkout_left .col-1{
+    width: 100%;
+    margin-top: 40px;
+}
+.checkout_left h3{
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+}
+.checkout_left .form_row{
+    padding: 3px;
+    margin: 0 0 6px;
+}
+.checkout_left .form_row_first{
+    float: left;
+    width: 47%;
+    overflow: visible;
+}
+.checkout_left label{
+    font-size: 14px;
+    font-weight: bold;
+    color: #4d4d4d;
+    line-height: 2em;
+}
+.checkout_left .required{
+    color: #777777;
+}
+.checkout_left select{
+    font-size: 14px;
+    font-weight: normal;
+    color: #555555;
+    border-color: #cccccc;
+    background-color: #ffffff;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 7px;
+    padding-right: 7px;
+    width: 100%;
+    outline: none;
+    float: left;
+}
+.checkout_left input{
+    font-size: 14px;
+    font-weight: normal;
+    color: #555555;
+    /*border-color: #cccccc;*/
+    background-color: #ffffff;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 7px;
+    padding-right: 7px;
+
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    outline: 0;
+    line-height: 1em;
+
+    border: solid 1px #e0e0e0;
+
+}
+input[type="text"]{
+    border: solid 1px #e0e0e0;
+}
+.checkout_left textarea{
+    font-size: 14px;
+    font-weight: normal;
+    color: #555555;
+    border-color: #cccccc;
+    background-color: #ffffff;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 7px;
+    padding-right: 7px;
+    outline: none;
+
+    box-sizing: border-box;
+    width: 100%;
+}
+.checkout_right{
+    width: 38.667%;
+    box-sizing: border-box;
+    float: right;
+    min-height: 1px;
+    /*padding: 0;*/
+    position: relative;
+    /*border-color: #777777;*/
+    border: 3px solid #627f9a;
+    padding: 30px;
+    margin-top: 40px;
+}
+.order_review{
+    font-size: 22px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 10px;
+}
+#order_review{
+    position: relative;
+    zoom: 1;
+}
+.checkout_right .shop_table{
+    text-align: left;
+    width: 100%;
+    margin: 0 0 1.5em;
+    list-style: none;
+}
+.checkout_right .shop_table thead{
+    border-bottom: 3px solid #ddd;
+}
+.checkout_right .shop_table tfoot tr{
+    /*border-color: #dddddd;*/
+    border-bottom: 1px dotted #ddd;
+}
+.checkout_right .shop_table .cart_item{
+    border-bottom: 1px dotted #ddd;
+}
+.checkout_right .shop_table .order_total{
+    border-bottom: none;
+}
+/*.checkout_right .shop_table tr:last-child {
+    border-bottom: none;
+}*/
+.checkout_right .shop_table tr th{
+    font-size: 16px;
+    font-weight: bold;
+    color: #555555;
+    font-family: 微软雅黑;
+    border-color: #dddddd;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.checkout_right .product_total{
+    text-align: right;
+}
+.checkout_right .shop_table tr td{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 14px;
+    font-weight: normal;
+    color: #777777;
+    border-color: #dddddd;
+    text-align: right;
+}
+.checkout_right .shop_table tr td a{
+    font-size: 14px;
+    font-weight: normal;
+    color: #000000;
+}
+.checkout_right .shop_table tr td .product_quantity{
+    font-size: 14px;
+    font-weight: bold;
+    color: #777777;
+}
+.payment_methods li{
+    margin-bottom: 10px;
+}
+.payment_box{
+    border-color: #dddddd;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 15px;
+}
+.payment_box p{
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: normal;
+    color: #777777;
+}
+.place_order input{
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: normal;
+    color: #ffffff;
+    border-color: #777777;
+    background-color: #777777;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-image: none;
+    /*outline: none;*/
+    border: none;
+}

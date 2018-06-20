@@ -1,0 +1,232 @@
+.shop_left{
+    width: 66.667%;
+    box-sizing: border-box;
+    float: left;
+    min-height: 1px;
+    padding: 0;
+    position: relative;
+
+    padding-right: 30px;
+    border-right: 1px solid #ddd;
+}
+.shop_table{
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/*.shop_table tr{
+    font-size: 16px;
+    font-weight: bold;
+    color: #555555;
+    font-family: 微软雅黑;
+    border-color: #dddddd;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 12px;
+    padding-right: 12px;
+
+    border-bottom: 3px solid #ddd;
+}*/
+.shop_table tr{
+    border-color: #dddddd;
+    border-bottom: 1px dotted #ddd;
+}
+.shop_table tr:first-child {
+    border-bottom: 3px solid #ddd;
+}
+.shop_table tr:last-child {
+    border-bottom: none;
+}
+.shop_table tr th{
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(85, 85, 85);
+    font-family: 微软雅黑;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-color: rgb(221, 221, 221);
+    text-align: left;
+}
+.shop_table tr td{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 14px;
+    font-weight: normal;
+    color: #777777;
+    border-color: #dddddd;
+}
+.shop_table tr td a{
+    font-size: 14px;
+    font-weight: normal;
+    color: #000000;
+}
+.product_removelink{
+    width:43px;
+}
+.product_photo{
+    width: 90px;
+}
+.product_photo img{
+    width: 90px;
+    height: auto;
+}
+.product_name{
+    font-size: 100%;
+    padding: 0 30px;
+    width: 35%;
+}
+.product_price{
+    font-size: 14px;
+    font-weight: normal;
+    color: #777777;
+}
+.product_quantity{
+    text-align: left;
+}
+.product_quantity .quantity{
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+    zoom: 1;
+}
+.product_quantity .minus{
+    border-color: #cccccc;
+    height: 40px;
+    width: 26px;
+    font-size: 14px;
+    font-weight: normal;
+    color: #333333;
+    font-family: arial;
+
+    background: none;
+    background-image: none;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: none;
+    cursor: pointer;
+    display: inline-block;
+    filter: none;
+    float: left;
+    left: auto;
+    position: relative;
+    text-align: center;
+    top: auto;
+}
+.product_quantity .plus{
+    border-color: #cccccc;
+    height: 40px;
+    width: 26px;
+
+    font-size: 14px;
+    font-weight: normal;
+    color: #333333;
+    font-family: arial;
+
+    background: none;
+    background-image: none;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: none;
+    cursor: pointer;
+    display: inline-block;
+    filter: none;
+    float: left;
+    left: auto;
+    position: relative;
+    text-align: center;
+    top: auto;
+}
+.product_quantity .input_text{
+    border-bottom-color: #cccccc;
+    border-top-color: #cccccc;
+    height: 38px;
+    width: 26px;
+
+    font-size: 14px;
+    font-weight: normal;
+    color: #333333;
+    font-family: arial;
+    /*border-color: #cccccc;*/
+
+    border-style: solid;
+    border-width: 1px 0;
+    display: inline-block;
+
+    float: left;
+    padding: 0;
+    text-align: center;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+
+.shop_table input{
+    margin: 0;
+    vertical-align: middle;
+    line-height: 1em;
+}
+.shop_table .product_sub{
+    text-align: right;
+    /*font-size: 14px;*/
+    font-weight: bold;
+    color: #777777;
+}
+
+/*右侧*/
+.shop_right{
+    width: 33.333%;
+    float: right;
+}
+.cart_sidebar{
+    padding-left: 30px;
+}
+.cart_sub{
+    width: 100%;
+}
+.cart_sub_table th{
+    font-size: 14px;
+    font-weight: bold;
+    color: #777777;
+    padding-bottom: 12px;
+    padding-top: 4px;
+    text-align: left;
+}
+.cart_sub_table td{
+    font-size: 14px;
+    font-weight: normal;
+    color: #777777;
+    text-align: right;
+}
+.cart_sub h2{
+    font-size: 16px;
+    font-weight: bold;
+    color: #555555;
+    font-family: 微软雅黑;
+    padding-top: 15px;
+    padding-bottom: 6px;
+    border-bottom: 3px solid #dddddd;
+}
+.cart_sub_table .order_total{
+    border-bottom: 3px solid #ddd;
+    border-top: 1px solid #ddd;
+}
+.cart_button{
+    margin: 20px 0;
+}
+.cart_button .first_button{
+    width: 100%;
+    font-size: 16px;
+    font-weight: normal;
+    color: #ffffff;
+    border-color: #777777;
+    background-color: #777777;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background-image: none;
+    border: 1px solid #c7c0c7;
+}

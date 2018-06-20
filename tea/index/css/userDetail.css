@@ -1,0 +1,118 @@
+.container{
+    position: relative;
+    width:100%;
+    height:644px;
+}
+.wf-wrap{
+    overflow: hidden;
+}
+.usermanage_leftslider{
+    position: relative;
+    width:320px;
+    height:642px;
+    border:1px solid #dddddd;
+    /*padding-bottom: 20px;*/
+    vertical-align: top;
+    float: left;
+    /*overflow: hidden;*/
+}
+.usermanage_header{
+    margin-top: 0;
+    border-top: 0;
+    padding:15px;
+    color: #666;
+}
+.usermanage_header .photo{
+    display: block;
+    width: 70px;
+    height: 70px;
+    border-radius: 70px;
+    border: 3px solid #fff;
+    box-shadow: 0 0 0 1px #ddd;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(http://568c82919dfbf.t74.qifeiye.com/qfy-content/uploads/qfyuser/8/59ed3dacdec2d.jpg);
+}
+.usermanage_header .name{
+    position: absolute;
+    left: 100px;
+    top: 18%;
+    transform: translateY(-50%);
+}
+.usermanage_header .info{
+    cursor: pointer;
+    border: 1px solid #ddd;
+    font-size: 12px;
+    padding: 0px 5px 0px 5px;
+    display: inline-block;
+    height: 21px;
+    line-height: 19px;
+    color: #666;
+}
+.usermanage_leftslider .usermanage_page li{
+    /*background-color: #fff;*/
+    border-top: 1px solid #ddd;
+    text-align: left;
+}
+.usermanage_order:last-child{
+    border-bottom: 1px solid #ddd;
+}
+.usermenu{
+    display: table;
+    width: 100%;
+}
+.a_userpadding {
+    padding: 8px 15px;
+    cursor: pointer;
+}
+.container .usermenu{
+    height: 26px;
+    color:#666;
+    width:290px;
+    height:21px;
+}
+.usermanage_rightslider{
+    border: 1px solid #ddd;
+    padding-bottom: 20px;
+    vertical-align: top;
+    width:682px;
+    height:621px;
+    float: right;
+}
+.my_new_order{
+    padding: 22px 15px 15px 15px;
+    margin-bottom: 0;
+    color: #666;
+}
+.order_list{
+    padding: 10px 15px;
+}
+.order_detail{
+    border: 1px solid #ddd;
+    margin-bottom: 30px;
+    font-size: 14px;
+    color: #666;
+    padding: 20px;
+}
+.order_detail table tr td{
+    height: 40px;
+}
+.order_detail input[type='text']{
+    width:200px;
+    /*height:30px;*/
+    padding:10px 10px;
+    outline: none;
+}
+.order_detail button{
+    padding:10px 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.usermanage_rightslider .contain:last-child{
+    display: none;
+}
+
+.cur{
+    background: #cccccc;
+}

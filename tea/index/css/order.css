@@ -1,0 +1,104 @@
+.container h2{
+    font-size: 22px;
+    font-weight: bold;
+    color: #555555;
+    font-family: 微软雅黑;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+.dingdan{
+    margin-bottom: 24px;
+}
+.dingdan thead{
+    font-size: 16px;
+    font-weight: bold;
+    color: #555555;
+    font-family: 微软雅黑;
+    border-color: #dddddd;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-bottom: 3px solid #ddd;
+}
+.dingdan td{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 14px;
+    font-weight: normal;
+    color: #777777;
+    border-color: #dddddd;
+}
+.container p{
+    font-size: 14px;
+    font-weight: normal;
+    color: #777777;
+    font-family: 微软雅黑;
+}
+.shop_table .row{
+    text-align: right;
+}
+.dingdan2{
+    margin: 0 0 1.5em;
+}
+.dingdan2{
+    font-size: 16px;
+    font-weight: bold;
+    color: #555555;
+    font-family: 微软雅黑;
+    border-color: #dddddd;
+    /*padding-top: 4px;
+    padding-bottom: 4px;*/
+    padding-left: 12px;
+    padding-right: 12px;
+    /*border-bottom: 3px solid #ddd;*/
+}
+.shop_table tr:first-child{
+    border-bottom: none;
+}
+.dingdan2 th{
+    font-size: 16px;
+    font-weight: bold;
+    color: #555555;
+    font-family: 微软雅黑;
+    border-color: #dddddd;
+    /*padding-top: 4px;
+    padding-bottom: 4px;*/
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.dingdan2 td{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.dingdan2 .cart_sub{
+    border-top: 1px solid #dddddd;
+}
+.dingdan3 td{
+    font-size: 14px;
+    font-weight: normal;
+    color: #777777;
+    border-color: #dddddd;
+    padding-left: 15px;
+}
+.dingdan3 .col-1{
+    float: left;
+    width: 48%;
+}
+.back{
+    font-size: 16px;
+    font-weight: normal;
+    color: #777777;
+    /*border-color: #777777;
+    background-color: #ffffff;*/
+    /*padding-top: 12px;
+    padding-bottom: 12px;*/
+    background-image: none;
+    border: 1px solid #c7c0c7;
+    background: #f7f6f7;
+    padding: 6px 10px;
+}

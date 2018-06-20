@@ -1,0 +1,69 @@
+.pay-tu{
+	width: 100%;
+	height: 316px;
+}
+.pay-tu>img{
+	width: 100%;
+	height: 100%;
+}
+.pay{
+	width: 100%;
+	height: 476px;
+}
+.online{
+	width: 100%;
+	height: 123px;
+	padding-top: 20px;
+	/*background: pink;*/
+}
+.online-text{
+	width: 100%;
+	height: 51px;
+}
+.online-text>span:first-child{
+	display: block;
+	color: #666666;
+	line-height: 27px;
+	text-align: center;
+	font-size: 24px;
+	font-family: 宋体;
+	font-weight: bold;
+}
+.online-text>span:nth-child(2){
+	display: block;
+	color: #666666;
+	line-height: 24px;
+	text-align: center;
+	font-size: 16px;
+	font-family: 宋体;
+	font-weight: bold;
+}
+.online-icon{
+	width: 100%;
+	height: 72px;
+}
+.online-icon>span{
+	display: block;
+	font-size: 45px;
+	text-align: center;
+	line-height: 72px;
+	color: #666666;
+}
+.pay-content{
+	width: 100%;
+	height: 313px;
+	margin-top: 20px;
+	border-top:1px solid #bfbfbf;
+	/*background: pink;*/
+}
+.pay-content>div{
+	width: 100%;
+	height: 25px;
+	font-size: 14px;
+	color: #696969;
+	line-height: 25px;
+}
+.pay-content>div:first-child{
+	margin-top: 20px;
+	font-weight: 700;
+}
